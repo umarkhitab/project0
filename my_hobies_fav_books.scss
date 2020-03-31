@@ -4,7 +4,6 @@
     font-family: sans-serif;
     font-size: 15px;
     font-weight: bold;
-    //border: 1px solid black;
     padding: 18px;
     margin: 18px;
     border-radius: 5px 5px 5px 5px;
@@ -24,7 +23,7 @@
         background-color: #c4333a;
     }
 
-a::after{
+a::before{
 
     font-weight:bold;
     content: "\21d2";

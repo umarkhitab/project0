@@ -5,17 +5,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" href="my_hobies_fav_books.css">
+        <!-----Using Media query -->
+        <style>
+            @media (min-width: 500px)
+            {
+                h1::before {
+                content: "Welcome to my hobbies page";
+                    }
+                }
+
+            @media (max-width: 500px)
+            {
+                h1::before {
+                    content:" Welcome"
+                }
+
+            }
+        </style>
     </head>
 
     <body>
 
         <div class="success" role="alert">You successfully visited My Hobbies page</div>
 
-        <h1>MY HOBBIES</h1>
+        <h1></h1>
 <ul>
 <li><h2>Watching Movies</h2></li>
 <p>Movies are a great source of getting knowledge about each and every aspect of life, whether it is Language, History or Tactics learning etc.</p>
